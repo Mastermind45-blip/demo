@@ -1,0 +1,15 @@
+@startuml name
+start
+:Masukkan sebuah bilangan bulat;
+:num = input;
+while (num != 0) is (loop)
+if (num > 0) then (positif)
+  :Bilangan tersebut adalah bilangan positif;
+else (negatif)
+  :Bilangan tersebut adalah bilangan negatif;
+endif
+:Masukkan sebuah bilangan bulat;
+:num = input;
+endwhile (loop)
+stop
+@enduml
